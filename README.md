@@ -11,7 +11,7 @@ The project has been divided into tasks that involve:
     ## Model development
     ## Model deployment
     
-## Data Scrapping     
+## 1. Data Scrapping     
 ### Execute the block
 **Instructions:**
 
