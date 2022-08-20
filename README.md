@@ -1,2 +1,2 @@
 # Tech-Monies
-This repo contains file for expected salary of Tech Jobs
+This repo contains file for expected salary of Tech Jobs.
