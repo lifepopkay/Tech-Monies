@@ -36,8 +36,7 @@ Model deployment
 
 The phase extract the features for model.
 
-|---|---|
-| **title**|
+
 
 
 
