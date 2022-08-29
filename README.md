@@ -30,5 +30,14 @@ Model deployment
 4. Enter Page Numbers to be scrapped. Keep blank & Hit Enter/Return (↩) to get result from 1st page only. 🟢
 
 ##### 🔴 - Necessary Inputs, 🟢 - Optional Inputs
-
 *Data will be saved in csv which can be find in files (accessible from left pane).*
+
+## 2. Data Cleaning
+
+The phase extract the features for model.
+
+|---|---|
+| **title**|
+
+
+
