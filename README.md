@@ -59,7 +59,6 @@ The phase extract the needed features from the scrapped data.
 | Information | Dataset Column |
 |---|---|
 | Jobs title | `title` |
-
 | Salary | `salary` (both upper and lower |
 | Contract Type | `type` |
 | Country | `country` |
