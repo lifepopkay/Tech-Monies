@@ -1,7 +1,3 @@
-# Tech-Monies
-This repo contains file for expected salary of Tech Jobs
-
-
 =======
 # Tech-Monies
 
@@ -16,7 +12,7 @@ Data cleaning,
 Model development, and 
 Model deployment
     
-## 1. Data Scrapping     
+   
 <<<<<<< Scraping
 # Data Scrapping
 
@@ -57,6 +53,6 @@ There are some more columns available which are listed below.
 | Post Date | `postDate` | ✅ | Recency of Job Posting |
 | Estimated by Indeed | `estimated` | ✅ | The salary is estimated by Indeed |
 
-## 2. Data Cleaning
+<<<<<<< Data Cleaning
 
 The phase extract the features for model.
