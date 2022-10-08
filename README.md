@@ -75,3 +75,5 @@ This phase includes the EDA and Modeling repo.
 
 # Model Deployment
 This phase include live page of the prediction for user use
+
+The link to the live page 👉  https://ajmasih0309-tech-monies-predictionapp1-modelling-31dqnz.streamlitapp.com/
