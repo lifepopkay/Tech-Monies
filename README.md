@@ -55,4 +55,16 @@ There are some more columns available which are listed below.
 
 # Data Cleaning
 
-The phase extract the features for model.
+The phase extract the needed features from the scrapped data.
+| Information | Dataset Column | Available | Comment |
+|---|---|---|---|
+| Jobs title | `title` | ✅ |
+
+| Salary | `salary` (both upper and lower |✅ |
+| Contract Type | `type` | ✅ | 
+| Country | `country` | ✅ | 
+| Years of Experience | `yearMinExp` | ✅ |
+| Position | `level` | ✅ | 
+| Skillset Required | `skills` | ✅ | 
+| Educational qualification | `eligibility` | ✅ |
+| Pay Frequency | `payFrequency` | ✅ |
