@@ -13,7 +13,7 @@ Model development, and
 Model deployment
     
    
-<<<<<<< Scraping
+
 # Data Scrapping
 
 Current Status of Script:
@@ -53,6 +53,6 @@ There are some more columns available which are listed below.
 | Post Date | `postDate` | ✅ | Recency of Job Posting |
 | Estimated by Indeed | `estimated` | ✅ | The salary is estimated by Indeed |
 
-<<<<<<< Data Cleaning
+# Data Cleaning
 
 The phase extract the features for model.
