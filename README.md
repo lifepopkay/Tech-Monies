@@ -1,3 +1,20 @@
+
+=======
+# Tech-Monies
+
+This repo contains file for expected salary of Tech Jobs
+
+
+ Knowing what your value is in the job market prevents you from underselling yourself. A lot of people are being underpaid because they sold themselves short, especially people venturing into a new field. People going into tech are not an exception. The job market of techies is projected to grow exponentially and knowing your worth places you in an advantageous position
+
+The project has been divided into tasks that involve:
+Data Sourcing and Scrapping,
+Data cleaning,
+Model development, and 
+Model deployment
+    
+## 1. Data Scrapping     
+<<<<<<< Scraping
 # Data Scrapping
 
 Current Status of Script:
@@ -37,4 +54,9 @@ There are some more columns available which are listed below.
 | Post Date | `postDate` | ✅ | Recency of Job Posting |
 | Estimated by Indeed | `estimated` | ✅ | The salary is estimated by Indeed |
 
----
+## 2. Data Cleaning
+
+The phase extract the features for model.
+
+
+
