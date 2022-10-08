@@ -59,7 +59,7 @@ The phase extract the needed features from the scrapped data.
 | Information | Dataset Column |
 |---|---|
 | Jobs title | `title` |
-| Salary | `salary` (both upper and lower |
+| Salary | `salary` (both upper and lower) |
 | Contract Type | `type` |
 | Country | `country` |
 | Years of Experience | `yearMinExp` |
@@ -67,3 +67,11 @@ The phase extract the needed features from the scrapped data.
 | Skillset Required | `skills` |
 | Educational qualification | `eligibility` |
 | Pay Frequency | `payFrequency` |
+
+
+# Model Development
+
+This phase includes the EDA and Modeling repo.
+
+# Model Deploymeny
+This phase include live page of the prediction for user use
