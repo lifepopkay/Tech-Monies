@@ -1,3 +1,5 @@
+
+=======
 # Tech-Monies
 
 This repo contains file for expected salary of Tech Jobs
@@ -12,31 +14,49 @@ Model development, and
 Model deployment
     
 ## 1. Data Scrapping     
-### Execute the block
-**Instructions:**
+<<<<<<< Scraping
+# Data Scrapping
 
-1. Enter Job Title. 🔴
-2. Enter Country Abbreviations - 🔴
+Current Status of Script:
 
-| Country | Base Url |
-|---|---|
-| **USA** | `www.indeed.com` |
-| **UK** | `uk.indeed.com` |
-| **IND** | `in.indeed.com` |
-| **NG** | `ng.indeed.com` |
-| **CA** | `ca.indeed.com` |
+### Output Columns
+#### Main Columns:
 
-3. Enter location. This could be any city, state or province. Keep blank & Hit Enter/Return (↩) to get result across country. 🟢
-4. Enter Page Numbers to be scrapped. Keep blank & Hit Enter/Return (↩) to get result from 1st page only. 🟢
+| Information | Dataset Column | Available | Comment |
+|---|---|---|---|
+| Jobs title | `title` | ✅ | Posted Job Title |
+| Description | `jobDesc` | ✅ | All details available in JD. Use `print` statement to get a formatted output |
+| Salary | `salary` | ❌ | will be extracted from `salaryDesc` |
+| Contract Type | `type` | ✅ | will be extracted from `salaryDesc` |
+| Company Name | `company` | ✅ | - |
+| Country | `country` | ❌ | will be extracted from `location` |
+| State | `state` | ❌ | will be extracted from `location` |
+| Years of Experience | `yearMinExp` | ❌ | will be extracted from `jobDesc` |
+| Position | `level` | ❌ | will be extracted from `jobDesc` |
+| Industry | `industry` | ❌ | will be extracted from `jobDesc` |
+| Age Required | `ageCriteria` | ❌ | will be extracted from `jobDesc` |
+| Skillset Required | `skills` | ❌ | will be extracted from `jobDesc` |
+| Educational qualification | `eligibility` | ❌ | will be extracted from `jobDesc` | 
+| Pay Frequency | `payFrequency` | ❌ | will be extracted from `jobDesc` |
 
-##### 🔴 - Necessary Inputs, 🟢 - Optional Inputs
-*Data will be saved in csv which can be find in files (accessible from left pane).*
+---
+
+There are some more columns available which are listed below.
+
+#### Additional Columns:
+
+| Information | Dataset Column | Available | Comment |
+|---|---|---|---|
+| Jobs ID | `jobID` | ✅ | - |
+| Location | `location` | ✅ | One or more combination of city, state, country or pincode/zipcode |
+| Salary Desc | `salaryDesc` | ✅ | One or more combination of salary (actual/estimated), job type, shift, etc. |
+| JD link | `link` | ✅ | Link to actual Job Description provided by Indeed |
+| Post Date | `postDate` | ✅ | Recency of Job Posting |
+| Estimated by Indeed | `estimated` | ✅ | The salary is estimated by Indeed |
 
 ## 2. Data Cleaning
 
 The phase extract the features for model.
-
-
 
 
 
