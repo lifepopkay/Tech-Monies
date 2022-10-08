@@ -73,5 +73,5 @@ The phase extract the needed features from the scrapped data.
 
 This phase includes the EDA and Modeling repo.
 
-# Model Deploymeny
+# Model Deployment
 This phase include live page of the prediction for user use
